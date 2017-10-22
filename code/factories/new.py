@@ -11,7 +11,7 @@ class Config(object):
 
     def __init__(self, path):
         # Read config in from path here
-        pass
+        print("init")
 
 
 config_a = Config("a.txt")
